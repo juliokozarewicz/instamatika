@@ -68,7 +68,9 @@ for usuario in dados_usuarios.keys():
     if data_atual.isoweekday() == 6:
 
         instamatik.timeline_user()
-        # deixar se seguir quem não segur após 20-25 dias
+        instamatik.seguir_95_user(randint(70, 80))
+        instamatik.deixar_de_seguir(randint(5, 10))
+        instamatik.curtir_posts()
         instamatik.close_webdriver()
 
     if data_atual.isoweekday() == 7:

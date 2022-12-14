@@ -46,6 +46,7 @@ Script in python to capture followers on instagram in an organic way.
 ## How it works
 - Modify the ".env" file with your information;
 - Install what is needed in the "requirements.txt" file;
+- Create the MySQL tables that are in the file "0_files/db_layout.mwb";
 - Users must be registered in the "web_usuarios" table and must have their data in the "dados_usuarios.json" file;
 - Run the file "main.py";
 - Must use Firefox in English;
