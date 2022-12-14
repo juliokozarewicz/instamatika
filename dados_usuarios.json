@@ -1,0 +1,15 @@
+{
+    "user_1": {
+        "id_usuario": 1,
+        "insta_email": "",
+        "insta_senha": "",
+        "insta_target": ""
+    },
+
+    "user_2": {
+        "id_usuario": 2,
+        "insta_email": "",
+        "insta_senha": "",
+        "insta_target": ""
+    }
+}
